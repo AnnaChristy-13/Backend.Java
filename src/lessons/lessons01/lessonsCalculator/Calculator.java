@@ -1,5 +1,5 @@
 
-package lessons;
+package lessons.lessons01.lessonsCalculator;
 
     public class Calculator {
 
