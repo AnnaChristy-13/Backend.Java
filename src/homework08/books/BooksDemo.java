@@ -1,10 +1,10 @@
 package homework08.books;
 
 public class BooksDemo {
-    public static void main(String[] args) {
+sa    public static void main(String[] args) {
     BooksManager manager = new BooksManager();
-    Book book1 = manager.createBook();
-    Book book2 = manager.createBook1();
+    Book book1 = manager.createBookWithTwoParameters();
+    Book book2 = manager.createBookWithAllParameters();
 
         System.out.println(book1);
         System.out.println(book2);

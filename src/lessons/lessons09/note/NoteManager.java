@@ -1,10 +1,11 @@
 package lessons.lessons09.note;
 
-import lessons.lessons06.UserInput;
+
+import lessons06.scanner.UserInput;
 
 public class NoteManager {
 
-    UserInput ui = new UserInput();
+    lessons06.scanner.UserInput ui = new UserInput();
 
     public Note createNote(){
         String noteName = ui.inputText("Введите имя заметки: ");

@@ -1,4 +1,4 @@
-package lessons.lessons06.scanner;
+package lessons06.scanner;
 
 public class UserInputDemo {
     public static void main(String[] args) {
