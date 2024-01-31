@@ -12,12 +12,15 @@ public class ScannerExample {
 
         System.out.println("Please enter integer number: ");
         int intNumber = scanner.nextInt();
-
         System.out.println("Your number is: " + intNumber);
 
         System.out.println("Please enter double number: ");
         double doubleNumber = scanner.nextDouble();
         System.out.println("Your number is: " + doubleNumber);
+
+        System.out.println("Please enter true or false: ");
+        boolean booleanNumber = scanner.nextBoolean();
+        System.out.println("Your is it true : " + booleanNumber);
 
 
         scanner.close();

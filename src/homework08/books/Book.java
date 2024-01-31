@@ -1,21 +1,26 @@
 package homework08.books;
 
 public class Book {
-    String authorBook;
-    String nameBook;
+     String authorBook;
+     String nameBook;
     int totalPages;
     int numberInCatalog;
     boolean isAvailable;
 
-    public Book(String authorBook, String nameBook) {
-        this.authorBook = authorBook;
-        this.nameBook = nameBook;
-    }
 
     public Book(String authorOfBook, String nameOfBook, int numberOfPages, int numberInCatalog, boolean availOfBook) {
         this.authorBook = authorOfBook;
         this.nameBook = nameOfBook;
         this.totalPages = numberOfPages;
+        this.numberInCatalog = numberInCatalog;
+        this.isAvailable = availOfBook;
+    }
+    public Book(String authorBook, String nameBook) {
+        this.authorBook = authorBook;
+        this.nameBook = nameBook;
+    }
+    public Book(int totalPages, int numberInCatalog, boolean availOfBook) {
+        this.totalPages = totalPages;
         this.numberInCatalog = numberInCatalog;
         this.isAvailable = availOfBook;
     }

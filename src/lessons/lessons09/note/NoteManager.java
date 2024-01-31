@@ -13,4 +13,6 @@ public class NoteManager {
         String noteDescription = ui.inputText("Введите текст заметки'");
         return new Note(noteName,noteNumber,noteDescription);
     }
+
+
 }

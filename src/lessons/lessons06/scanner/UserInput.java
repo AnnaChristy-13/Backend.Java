@@ -6,23 +6,27 @@ public class UserInput {
 
     public String inputText(String message){
         Scanner scanner = new Scanner(System.in);
-
         System.out.println(message);
         String inputText = scanner.nextLine();
         return inputText;
     }
     public int inputInteger(String message){
         Scanner scanner = new Scanner(System.in);
-
         System.out.println(message);
         int inputInteger = scanner.nextInt();
         return inputInteger;
     }
-    public double inputDouble(String message){
+    public double inputDouble(String message) {
         Scanner scanner = new Scanner(System.in);
         System.out.println(message);
-        Double inputDouble = scanner.nextDouble();
+        double inputDouble = scanner.nextDouble();
         return inputDouble;
+    }
+        public boolean inputBoolean(String message){
+            Scanner scanner = new Scanner(System.in);
+            System.out.println(message);
+            boolean inputBoolean = scanner.nextBoolean();
+            return inputBoolean;
     }
 
 }
