@@ -4,7 +4,7 @@ package homework14;
 //2. Записать в него значения дней недели.
 //3. Вывести на консоль значение последнего элемента.
 
-public class task4 {
+public class Task4 {
     public static void main(String[] args) {
 
         String[] weekDays ={"Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"};

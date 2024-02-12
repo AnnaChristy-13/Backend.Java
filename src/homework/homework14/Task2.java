@@ -2,7 +2,7 @@ package homework14;
 
 //1. Создайте массив из всех нечётных чисел от 1 до 99.
 //2. Выведите его на экран в строку в обратном порядке
-public class task2 {
+public class Task2 {
     public static void main(String[] args) {
 //  1. Создали массив из всех нечётных чисел от 1 до 99.
 

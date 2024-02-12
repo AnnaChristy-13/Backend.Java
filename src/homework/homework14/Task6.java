@@ -4,7 +4,7 @@ package homework14;
 //- один из слов в котором нечетное количество букв
 //- второй в котором четное
 
-public class task6 {
+public class Task6 {
     public static void main(String[] args) {
 
         String[] weekDays = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};

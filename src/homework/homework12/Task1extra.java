@@ -1,8 +1,8 @@
-package homework12.Task3;
+package homework12;
 
 import lessons06.scanner.UserInput;
 
-public class Task1 {
+public class Task1extra {
 //Представим, что у нас есть устройство, в котором две колбы.
 //Прибор работает корректно, если температура первой колбы выше 100 градусов,
 //а температура второй колбы меньше 100 градусов.
