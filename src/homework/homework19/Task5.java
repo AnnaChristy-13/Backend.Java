@@ -7,8 +7,20 @@ package homework19;
 
 import lessons06.scanner.UserInput;
 
-public class Task5 {
+import java.util.Arrays;
 
-    UserInput text = new UserInput();
-    int number = text.inputInteger("");
+public class Task5 {
+    public static void main(String[] args) {
+
+        Task5Demo myArray = new Task5Demo();
+        int numberFromUser = myArray.getNumberfromUser();
+        System.out.println("Random array :");
+        int[] arrayFromRandomNumbers = myArray.createArray();
+        System.out.println(Arrays.toString(arrayFromRandomNumbers));
+        System.out.println("The same random array only with even numbers: ");
+        myArray.createArrayWithEvenNumbers();
+
+
+
+    }
 }

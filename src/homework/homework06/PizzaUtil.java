@@ -1,6 +1,7 @@
 package homework06;
 
-import scanner.UserInput;
+import lessons06.scanner.UserInput;
+
 
 public class PizzaUtil {
 
