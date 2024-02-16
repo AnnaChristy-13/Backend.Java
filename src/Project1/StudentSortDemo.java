@@ -8,7 +8,6 @@ public class StudentSortDemo {
         StudentService service = new StudentService();
         Student [] students = service.createStudentsArrayFromUserInput();
         service.fillStudentsArrayFromUserInput(students);
-        service.createStudentFromUserInput();
         service.sortStudents(students);
         System.out.println(Arrays.toString(students));
         service.printStudent(students);

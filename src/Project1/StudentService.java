@@ -18,19 +18,17 @@ public class StudentService {
 
         UserInput userInput = new UserInput();
         for (int i = 0; i < students.length; i++) {
-            System.out.println("Enter please student's date " + (i + 1) + ":");
-            String lastName = userInput.inputText("Enter please student's last name ");
-            String fistName = userInput.inputText("Enter please student's fist name ");
-            int age = userInput.inputInteger("Enter please student's age");
-            students[i] = new Student(lastName, fistName, age);
+
+            students[i] = createStudentFromUserInput();
 
         }
 
     }
 
-    public Student createStudentFromUserInput() {
-        System.out.println("Enter please date of a new student :");
+    private Student createStudentFromUserInput() {
+
         UserInput userInput = new UserInput();
+
         String lastName = userInput.inputText("Enter please student's last name ");
         String firstName = userInput.inputText("Enter please student's fist name ");
         int age = userInput.inputInteger("Enter please student's age ");
@@ -64,7 +62,8 @@ public class StudentService {
             System.out.println("=================================");
             System.out.println("Date of all students in the group");
             for (int i = 0; i < students.length; i++) {
-                System.out.println(students[i]);
+                System.out.print("Student " + (i+1) + ": ");
+                System.out.println("Last name of student: " + students[i].getLastName() + ", First name of student: " + students[i].getFirstName() + ", Age of the student: " + students[i].getAge());
 
             }
         }
