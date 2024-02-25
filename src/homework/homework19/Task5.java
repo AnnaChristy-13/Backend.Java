@@ -8,20 +8,20 @@ package homework19;
 import lessons06.scanner.UserInput;
 
 import java.util.Arrays;
-//
-//public class Task5 {
-//    public static void main(String[] args) {
-//
-//        Task5Demo myArray = new Task5Demo();
-//        int numberFromUser = myArray.getNumberfromUser();
-//        System.out.println("Random array :");
-//        int[] arrayFromRandomNumbers = myArray.createArray();
-//        System.out.println(Arrays.toString(arrayFromRandomNumbers));
-//        System.out.println("The same random array only with even numbers: ");
-//        int[] arrayWithEvenNumbers = myArray.createArrayWithEvenNumbers();
-//        System.out.println(Arrays.toString(arrayWithEvenNumbers));
-//
-//
-//
-//    }
-//}
+
+public class Task5 {
+   public static void main(String[] args) {
+
+        Task5Demo myArray = new Task5Demo();
+        int numberFromUser = myArray.getNumberfromUser();
+        System.out.println("Random array :");
+        int[] arrayFromRandomNumbers = myArray.createArray();
+       System.out.println(Arrays.toString(arrayFromRandomNumbers));
+        System.out.println("The same random array only with even numbers: ");
+        int[] arrayWithEvenNumbers = myArray.createArrayWithEvenNumbers();
+        System.out.println(Arrays.toString(arrayWithEvenNumbers));
+
+
+
+    }
+}
